@@ -81,7 +81,6 @@ Also add me to your group and make me admin. I'll reply to every photo😌.***",
 ]);
 }
 ?>
-
 if($msg == "/help" or $msg == "/start@MissAlvi_bot"){
 Alvi('sendMessage',[
 'chat_id'=>$chat_id,

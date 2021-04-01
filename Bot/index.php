@@ -75,6 +75,27 @@ Also add me to your group and make me admin. I'll reply to every photo😌.***",
 'parse_mode'=>"MarkDown",
 'reply_markup' =>  json_encode([
 'inline_keyboard' => [
+[['text' => "SUPPORT",'callback_data="start"],['text' => "CREATOR", 'url' => "https://telegram.me/benchamxd"]],
+[['text' => "ADD ME", 'url' => "https://telegram.me/$BOT_USERNAME?startgroup=False"],['text' => "Repo", 'url' => "https://github.com/Benchamxd/Ai-Bot"]], 
+]])
+]);
+}
+?>
+
+if($msg == "/help" or $msg == "/start@MissAlvi_bot"){
+Alvi('sendMessage',[
+'chat_id'=>$chat_id,
+'text'=>"***Hey  👋 $first_name,
+
+I'm $BOT_NAME a powerfull AI Bot
+
+I will resopnd to any image you send. Send me a image to me, I will say what is That😜
+
+Also add me to your group and make me admin. I'll reply to every photo😌.***",
+'reply_to_message_id'=>$message_id,
+'parse_mode'=>"MarkDown",
+'reply_markup' =>  json_encode([
+'inline_keyboard' => [
 [['text' => "SUPPORT",'url' => "https://telegram.me/induschats"],['text' => "CREATOR", 'url' => "https://telegram.me/benchamxd"]],
 [['text' => "ADD ME", 'url' => "https://telegram.me/$BOT_USERNAME?startgroup=False"],['text' => "Repo", 'url' => "https://github.com/Benchamxd/Ai-Bot"]], 
 ]])

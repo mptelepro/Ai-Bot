@@ -75,7 +75,7 @@ Also add me to your group and make me admin. I'll reply to every photo😌.***",
 'parse_mode'=>"MarkDown",
 'reply_markup' =>  json_encode([
 'inline_keyboard' => [
-[['text' => "SUPPORT",'callback_data="start"],['text' => "CREATOR", 'url' => "https://telegram.me/benchamxd"]],
+[['text' => "SUPPORT",'callback_data=> "help"],['text' => "CREATOR", 'url' => "https://telegram.me/benchamxd"]],
 [['text' => "ADD ME", 'url' => "https://telegram.me/$BOT_USERNAME?startgroup=False"],['text' => "Repo", 'url' => "https://github.com/Benchamxd/Ai-Bot"]], 
 ]])
 ]);
